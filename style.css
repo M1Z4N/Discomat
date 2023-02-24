@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    background-image: url("discoball.gif");
+    background-color: #010101;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#menu {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+button {
+    padding: 1em;
+    font-family: 'Righteous', cursive;
+    font-size: 1em;
+    border-radius: 2em;
+    border-color: white;
+    color: white;
+    border-width: 0.3em;
+    transition: 0.2s;
+    background-color: transparent;
+    text-shadow: 0 0 15px currentColor, 0 0 80px currentColor;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.2s;
+
+}
+
+input[type=range] {
+    cursor: pointer;
+    width: 20em;
+    background-color: blueviolet;
+}
+
+#discomatLogo {
+    text-shadow: 0 0 15px currentColor, 0 0 80px currentColor;
+}

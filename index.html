@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Discomat</title>
+</head>
+
+<body onload="discomatLogo()">
+    <div id="menu">
+        <h1>Welcome to <span id="discomatLogo">Discomat!</span></h1>
+        <h2>Choose below how often you want a new color (in ms):</h2>
+        
+        Very fast (1ms)<span style="font-size: 1.2em;">&#9889;</span>
+        <input type="range" min="1" max="10000" step="1" value="1000" id="inputRange" onmousemove="inputValue()"></input>
+        <span style="font-size: 1.2em;">&#128034;</span>Very slow (10s)
+        
+        <br>
+        Color change every: <span id="inputRangeValue">1000</span>ms
+        <br><br>
+
+        <button onclick="startParty()">Start party!</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
